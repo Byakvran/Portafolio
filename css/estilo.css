@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Fondo */
+.pag1{
+  background: url("../img/background.jpg");
+  background-size: cover;
+  height: 100vh; width: 100%;
+  overflow: hidden;
+}
+
+/* Contenedor principal */
+.header{
+    width: 1366px; height: 110px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+/* logotipo */
+.header .contenedor1{
+    width: 563px; height: 110px;
+    float: left;
+}
+
+.header .contenedor1 .logo{
+    width: 250px;
+    padding: 30px 28px;
+    overflow: hidden;
+    float: left;
+}
+/* Menu izquierdo */
+.header .contenedor1 .redes{
+    width: 250px;
+    overflow: hidden;
+}
+
+.header .contenedor1 .redes ul{
+    padding: 10px;
+}
+
+.contenedor1 .redes ul li{
+    padding: 33px 10px;
+    display: inline-block;
+}
+
+.contenedor1 .redes ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    float: right;
+}
+
+/* Menú derecho */
+.header .contenedor2{
+    width: 850px; height: 110px;
+    float: right;
+    overflow: hidden;
+    margin-top: -110px;
+}
+
+.header .contenedor2 .menu{
+    width: 850px;
+    overflow: hidden;
+    padding: 45px 90px;
+}
+
+.header .contenedor2 .menu ul{
+    list-style: none;
+    margin-left: 18px;
+}
+
+.header .contenedor2 .menu ul li{
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.header .contenedor2 .menu ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+}
+
+/* Pagina cuerpo */
+.pagina{
+    width: 1366px;
+    height: 658px;
+    z-index: 2;
+}
+
+.pagina .textobody{
+    width: 617px;
+}
+
+.pagina .textobody img{
+    padding: 170px 370px;
+}
+
+.pagina .fondo img{
+    margin-top: -424px;
+    z-index: 0;
+}
+
+/* Footer */
+.footer1{
+    width: 1366px;
+    z-index: 3;
+    margin-top: -155px;
+    margin-left: 15px;
+}
+
+.footer1 .copyright p{
+    color: white;
+}
