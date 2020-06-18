@@ -60,6 +60,11 @@ body{
     float: right;
 }
 
+.contenedor1 .redes ul li a:hover{
+    color: teal;
+    transition: all .5s ease;
+}
+
 /* Menú derecho */
 .header .contenedor2{
     width: 850px; height: 110px;
@@ -89,6 +94,11 @@ body{
     color: white;
     margin-left: 18px;
 }
+
+.header .contenedor2 .menu ul li a:hover{
+    color: teal;
+    transition: all .5s ease;
+}    
 
 /* Pagina cuerpo */
 .pagina{
@@ -151,6 +161,11 @@ body{
     float: left;
 }
 
+.headerp2 .logop2 .logo2 a img:hover{
+    transform: scale(1.1);
+    animation: ease;
+}
+
 /* redes 2 */
 .headerp2 .redesp2{
     width: 850px; height: 110px;
@@ -180,6 +195,11 @@ body{
     color: white;
     margin-left: 18px;
     font-size: 22px;
+}
+
+.headerp2 .redesp2 .redes2 ul li a:hover{
+    color: teal;
+    transition: all .5s ease;
 }
 
 /* Sobre mi */
