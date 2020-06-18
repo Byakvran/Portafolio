@@ -10,6 +10,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* PAGINA 1 - PRESENTACION */
 /* Fondo */
 .pag1{
   background: url("../img/background.jpg");
@@ -120,3 +121,133 @@ body{
 .footer1 .copyright p{
     color: white;
 }
+
+/* PAGINA 2 - SOBRE MI */
+/* Fondo */
+.pag2{
+    background: url("../img/background2.jpg");
+    background-size: cover;
+    height: 100vh; width: 100%;
+    overflow: hidden;
+}
+  
+/* Contenedor principal */
+.headerp2{
+    width: 1366px; height: 110px;
+    background-color: transparent;
+    z-index: 2;
+}
+  
+/* logotipo */
+.headerp2 .logop2{
+    width: 563px; height: 110px;
+    float: left;
+}
+
+.headerp2 .logop2 .logo2{
+    width: 250px;
+    padding: 30px 28px;
+    overflow: hidden;
+    float: left;
+}
+
+/* redes 2 */
+.headerp2 .redesp2{
+    width: 850px; height: 110px;
+    float: right;
+    overflow: hidden;
+    margin-top: -110px;
+}
+
+.headerp2 .redesp2 .redes2{
+    width: 850px;
+    overflow: hidden;
+    padding: 45px 90px;
+}
+
+.headerp2 .redesp2 .redes2 ul{
+    list-style: none;
+    margin-left: 510px;
+}
+
+.headerp2 .redesp2 .redes2 ul li{
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.headerp2 .redesp2 .redes2 ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 22px;
+}
+
+/* Sobre mi */
+.headerp2 .sobremi{
+    width: 490px; height: 95px;
+    margin-left: 440px;
+    margin-top: 10px;
+}
+
+.headerp2 .sobremi .texto img{
+    width: 100%;
+    margin-top: -150px;
+}
+
+/* imagen y texto - informacion */
+.info .foto{
+    width: 300px; height: 300px;
+}
+.info .foto img{
+    width: 300px;
+    border-radius: 200px;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.info .textoif{
+   text-align: left; 
+   margin-left: 65px;
+}
+
+.info .textoif p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.info .textoif p i{
+    padding: 0 15px;
+}
+
+/* Texto principal */
+.textoprincipal{
+    color: white;
+    margin-top: -350px;
+    margin-left: 480px;
+}
+
+/* Pasatiempos y habilidades */
+.iconos{
+    width: 880px;
+    height: 180px;
+    margin-left: 465px;
+    margin-top: 35px;
+}
+
+.iconos img{
+    display: inline-block;
+    width: 28%;
+    padding: 5px;
+}
+
+/* Footer */
+.footer2{
+    color: white;
+    margin-top: -12px;
+    margin-left: 15px;
+}
+
+/* PAGINA 3 - PORTAFOLIO */
+/* Fondo */
