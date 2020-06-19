@@ -29,10 +29,10 @@
         <div class="contenedor2">
         <div class="menu">
             <ul>
-                <li><a href="#pagina2">SOBRE MÍ</a></li>
-                <li><a href="#pagina3">PORTAFOLIO</a></li>
-                <li><a href="#pagina4">SERVICIOS</a></li>
-                <li><a href="#">CONTACTO</a></li>
+                <li><a href="#Sobremi">SOBRE MÍ</a></li>
+                <li><a href="#Portafolio">PORTAFOLIO</a></li>
+                <li><a href="#Servicios">SERVICIOS</a></li>
+                <li><a href="#Contacto">CONTACTO</a></li>
             </ul>
         </div>
         </div>
@@ -52,7 +52,7 @@
     </div></div>
 
     <div class="pag2"> <!-- Sobre mi -->
-        <a name="pagina2"></a><!--link interno-->
+        <a name="Sobremi"></a><!--link interno-->
         <!-- Cabecera -->
         <div class="headerp2">
             <div class="logop2">
@@ -118,7 +118,7 @@
     </div>
 
     <div class="pag3"><!-- Portafolio-->
-        <a name="pagina3"></a><!--link interno-->
+        <a name="Portafolio"></a><!--link interno-->
         <div class="headerp3">
             <div class="logop3">
                 <div class="logo3">
@@ -213,8 +213,8 @@
         </div>
     </div>
 
-    <div class="pag4">
-        <a name="pagina4"></a>
+    <div class="pag4"><!--Servicios-->
+        <a name="Servicios"></a>
         <div class="header4">
             <div class="logop4">
                 <div class="logo4">
@@ -239,21 +239,18 @@
         </div>
 
         <div class="iconos4">
-            <div class="icons">
+                <div class="img1">
                 <img src="img/diseño.svg" alt="diseño">
-                <div class="titulo1">
-                    <p>DISEÑO GRÁFICO</p>
                 </div>
+
+                <div class="img2">
                 <img src="img/branding.svg" alt="branding">
-                <div class="titulo2">
-                    <p>BRANDING</p>
                 </div>
+
+                <div class="img3">
                 <img src="img/web.svg" alt="diseñoweb">
-                <div class="titulo3">
-                    <p>DISEÑO WEB</p>
-                </div>
+                </div>        
             </div>
-        </div>
         <div class="textos4">
             <div class="txt1">
                 <p>Se elige con cuidado la tipografía, procurando que sea legible, de acuerdo a tu contenido, que contraste y que tenga ritmo, cuido minuciosamente la retícula que sostendrá tu diseño, con proporción y haciendo ver los espacios elegantes e interesantes.
@@ -278,6 +275,55 @@
                  <p>© Enrique Fuentes / Todos los derechos reservados.
                  </p>
             </div>
+        </div>
+    </div>
+
+    <div class="pag5"><!--Contacto-->
+        <a name="Contacto"></a>
+        <div class="header5">
+            <div class="logop5">
+                <div class="logo5">
+                    <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="redesp5">
+                <div class="redes5">
+                    <ul>
+                    <li><a href="https://www.behance.net/byakuran_bkrn" class="icon-behance2" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/byakkvran" class="icon-instagram" target="_blank"></a></li>
+                    <li><a href="https://www.facebook.com/Byakvran" class="icon-facebook" target="_blank"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Texto cabecera -->
+            <div class="contacto">
+                <div class="texto5">
+                    <img src="img/contacto.svg" alt="titulo">
+                </div>
+            </div>
+        </div>
+
+        <div class="formulario_contacto">
+            <div class="fondocontacto">
+                <img src="img/contactofondo.jpg" alt="fondocontacto">
+            </div>
+            <div id="formulario">
+                <form action="recibido.html" method="POST">
+                    <input name="nombre" type="text" required="nombre" placeholder="Coloca tu nombre" maxlength="50">
+                    <input name="empresa" type="text" placeholder="Nombre de tu empresa" maxlength="50">
+                    <input name="correo" type="email" required="correo" placeholder="Correo Electrónico" maxlength="50">
+                    <input name="telefono" type="text" placeholder="Número Telefonico " maxlength="50">
+                    <textarea name="mensaje" maxlength="500" required="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                    <input type="reset" value="Limpiar" class="btnForm">
+                    <input type="submit" class="btnForm" formaction="recibido.html" value="Enviar">
+                </form>
+            </div>
+        </div>
+        <div class="footer5">
+            <div class="copyright4">
+                <p>© Enrique Fuentes / Todos los derechos reservados.
+                </p>
+           </div>
         </div>
     </div>
 

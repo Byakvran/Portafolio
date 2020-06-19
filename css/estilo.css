@@ -410,6 +410,283 @@ body{
 /* footer3 */
 .footer3{
     color: white;
-    margin-top: 12px;
+    margin-top: 17px;
     margin-left: -140px;
 }
+
+/* PAGINA 4 - SERVICIOS */
+/* Fondo */
+.pag4{
+    background: url("../img/background2.jpg");
+    background-size: cover;
+    height: 100vh; width: 100%;
+    overflow: hidden;
+}
+  
+/* Contenedor principal */
+.header4{
+    width: 1366px; height: 110px;
+    background-color: transparent;
+    z-index: 2;
+}
+  
+/* logotipo */
+.header4 .logop4{
+    width: 200px; height: 110px;
+    float: left;
+}
+
+.header4 .logop4 .logo4{
+    width: 250px;
+    padding: 30px 28px;
+    overflow: hidden;
+    float: left;
+}
+
+.header4 .logop4 .logo4 a img:hover{
+    transform: scale(1.1);
+    animation: ease;
+}
+
+/* redes 4 */
+.header4 .redesp4{
+    width: 250px; height: 110px;
+    float: right;
+    overflow: hidden;
+}
+
+.header4 .redesp4 .redes4{
+    overflow: hidden;
+    padding: 45px 0;
+}
+
+.header4 .redesp4 .redes4 ul{
+    list-style: none;
+}
+
+.header4 .redesp4 .redes4 ul li{
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.header4 .redesp4 .redes4 ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 22px;
+}
+
+.header4 .redesp4 .redes4 ul li a:hover{
+    color: teal;
+    transition: all .5s ease;
+}
+
+/* Servicios */
+.header4 .servicios{
+    width: 490px; height: 95px;
+    margin-left: 440px;
+    margin-top: 5px;
+}
+
+.header4 .servicios .texto4 img{
+    width: 100%;
+    margin-top: 25px;
+}
+
+/* iconos */
+.iconos4 {
+    width: 1260px; height: 238px;
+    display: flex; padding: 0 30px 40px;
+    margin-top: 20px;
+}
+
+.iconos4 .img1{
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.iconos4 .img2{
+    width: 16%;
+    margin-left: 165px;
+    margin-top: 20px;
+}
+
+.iconos4 .img3{
+    width: 19%;
+    margin-left: 205px;
+    margin-top: 23px;
+}
+
+/* texto general */
+.textos4{
+    color: white;
+    width: 427px; height: 217px;
+}
+
+.textos4 .txt1{
+    font-size: 15px;
+    width: 370px; height: 210px;
+    margin-left: 70px; margin-top: 45px;
+}
+
+.textos4 .txt1 p{
+    text-align: justify;
+}
+
+.textos4 .txt2{
+    font-size: 15px;
+    width: 370px; height: 210px;
+    margin-left: 490px; margin-top: -210px;
+}
+
+.textos4 .txt2 p{
+    text-align: justify;
+}
+
+.textos4 .txt3{
+    font-size: 15px;
+    width: 370px; height: 210px;
+    margin-left: 910px; margin-top: -210px;
+}
+
+.textos4 .txt3 p{
+    text-align: justify;
+}
+
+/* footer4 */
+.footer4{
+    color: white;
+    margin-top: -22px;
+    margin-left: 15px;
+}
+
+/* PAGINA 5 - CONTACTO */
+/* Fondo */
+.pag5{
+    background: url("../img/background3.jpg");
+    background-size: cover;
+    height: 100vh; width: 100%;
+    overflow: hidden;
+}
+  
+/* Contenedor principal */
+.header5{
+    width: 1366px; height: 110px;
+    background-color: transparent;
+    z-index: 2;
+}
+  
+/* logotipo */
+.header5 .logop5{
+    width: 350px; height: 110px;
+    float: left;
+}
+
+.header5 .logop5 .logo5{
+    width: 250px;
+    padding: 30px 28px;
+    overflow: hidden;
+    float: left;
+}
+
+.header5 .logop5 .logo5 a img:hover{
+    transform: scale(1.1);
+    animation: ease;
+}
+
+/* redes 5 */
+.header5 .redesp5{
+    width: 250px; height: 110px;
+    float: right;
+    overflow: hidden;
+}
+
+.header5 .redesp5 .redes5{
+    overflow: hidden;
+    padding: 45px 0px;
+}
+
+.header5 .redesp5 .redes5 ul{
+    list-style: none;
+}
+
+.header5 .redesp5 .redes5 ul li{
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.header5 .redesp5 .redes5 ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 22px;
+}
+
+.header5 .redesp5 .redes5 ul li a:hover{
+    color: teal;
+    transition: all .5s ease;
+}
+
+/* CONTACTO */
+.header5 .contacto{
+    width: 490px; height: 95px;
+    margin-left: 440px;
+    margin-top: 10px;
+}
+
+.header5 .contacto .texto5 img{
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* Fondo formulario */
+.fondocontacto{
+    width: 1036px; height: 508px;
+}
+.fondocontacto img{
+    width: 90%;
+    margin-left: 155px;
+    margin-top: 15px;
+    z-index: 1;
+}
+
+/* formulario */
+#formulario{
+    display: inline-block;
+    width: 29%;
+    margin: 10px 10px;
+    vertical-align: middle;
+    margin-top: -545px;
+    margin-left: 172px;
+}
+
+form input, select, textarea{
+    width: 80%;
+    padding: 13px;
+    margin: 7px auto;
+    font-size: 0.7em;
+    color: white;
+    background: rgba(0,128,128,.6);
+    border-radius: 12px;
+}
+
+select{
+    width: 90%;
+}
+
+.btnForm{
+    width: 100px;
+    color: #848483;
+    float: left;
+    margin: 3px;
+}
+
+/* footer5 */
+.footer5{
+    color: white;
+    margin-top: -35px;
+    margin-left: 15px;
+}
+
+/* ESTILO DE LA PAGINA DE ENVIO DE CORREO */
