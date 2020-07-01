@@ -1,660 +1,693 @@
-*{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* PAGINA 1 - PRESENTACION */
 /* Fondo */
-.pag1{
+.pag1 {
   background: url("../img/background.jpg");
   background-size: cover;
-  height: 100vh; width: 100%;
+  height: 100vh;
+  width: 100%;
   overflow: hidden;
 }
 
 /* Contenedor principal */
-.header{
-    width: 1366px; height: 110px;
-    background-color: transparent;
-    z-index: 2;
+.header {
+  width: 1366px;
+  height: 110px;
+  background-color: transparent;
+  z-index: 2;
 }
 
 /* logotipo */
-.header .contenedor1{
-    width: 563px; height: 110px;
-    float: left;
+.header .contenedor1 {
+  width: 563px;
+  height: 110px;
+  float: left;
 }
 
-.header .contenedor1 .logo{
-    width: 250px;
-    padding: 30px 28px;
-    overflow: hidden;
-    float: left;
+.header .contenedor1 .logo {
+  width: 250px;
+  padding: 30px 28px;
+  overflow: hidden;
+  float: left;
 }
 /* Menu izquierdo */
-.header .contenedor1 .redes{
-    width: 250px;
-    overflow: hidden;
+.header .contenedor1 .redes {
+  width: 250px;
+  overflow: hidden;
 }
 
-.header .contenedor1 .redes ul{
-    padding: 10px;
+.header .contenedor1 .redes ul {
+  padding: 10px;
 }
 
-.contenedor1 .redes ul li{
-    padding: 33px 10px;
-    display: inline-block;
+.contenedor1 .redes ul li {
+  padding: 33px 10px;
+  display: inline-block;
 }
 
-.contenedor1 .redes ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 22px;
-    float: right;
+.contenedor1 .redes ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  float: right;
 }
 
-.contenedor1 .redes ul li a:hover{
-    color: teal;
-    transition: all .5s ease;
+.contenedor1 .redes ul li a:hover {
+  color: teal;
+  transition: all 0.5s ease;
 }
 
 /* Menú derecho */
-.header .contenedor2{
-    width: 850px; height: 110px;
-    float: right;
-    overflow: hidden;
-    margin-top: -110px;
+.header .contenedor2 {
+  width: 850px;
+  height: 110px;
+  float: right;
+  overflow: hidden;
+  margin-top: -110px;
 }
 
-.header .contenedor2 .menu{
-    width: 850px;
-    overflow: hidden;
-    padding: 45px 90px;
+.header .contenedor2 .menu {
+  width: 850px;
+  overflow: hidden;
+  padding: 45px 90px;
 }
 
-.header .contenedor2 .menu ul{
-    list-style: none;
-    margin-left: 18px;
+.header .contenedor2 .menu ul {
+  list-style: none;
+  margin-left: 18px;
 }
 
-.header .contenedor2 .menu ul li{
-    display: inline-block;
-    padding: 0 25px;
+.header .contenedor2 .menu ul li {
+  display: inline-block;
+  padding: 0 25px;
 }
 
-.header .contenedor2 .menu ul li a{
-    text-decoration: none;
-    color: white;
-    margin-left: 18px;
+.header .contenedor2 .menu ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 18px;
 }
 
-.header .contenedor2 .menu ul li a:hover{
-    color: teal;
-    transition: all .5s ease;
-}    
+.header .contenedor2 .menu ul li a:hover {
+  color: teal;
+  transition: all 0.5s ease;
+}
 
 /* Pagina cuerpo */
-.pagina{
-    width: 1366px;
-    height: 658px;
-    z-index: 2;
+.pagina {
+  width: 1366px;
+  height: 658px;
+  z-index: 2;
 }
 
-.pagina .textobody{
-    width: 617px;
+.pagina .textobody {
+  width: 617px;
 }
 
-.pagina .textobody img{
-    padding: 170px 370px;
+.pagina .textobody img {
+  padding: 170px 370px;
 }
 
-.pagina .fondo img{
-    margin-top: -424px;
-    z-index: 0;
+.pagina .fondo img {
+  margin-top: -424px;
+  z-index: 0;
 }
 
 /* PAGINA 2 - SOBRE MI */
 /* Fondo */
-.pag2{
-    background: url("../img/background2.jpg");
-    background-size: cover;
-    height: 100vh; width: 100%;
-    overflow: hidden;
+.pag2 {
+  background: url("../img/background2.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
-  
+
 /* Contenedor principal */
-.headerp2{
-    width: 1366px; height: 110px;
-    background-color: transparent;
-    z-index: 2;
+.headerp2 {
+  width: 1366px;
+  height: 110px;
+  background-color: transparent;
+  z-index: 2;
 }
-  
+
 /* logotipo */
-.headerp2 .logop2{
-    width: 563px; height: 110px;
-    float: left;
+.headerp2 .logop2 {
+  width: 563px;
+  height: 110px;
+  float: left;
 }
 
-.headerp2 .logop2 .logo2{
-    width: 250px;
-    padding: 30px 28px;
-    overflow: hidden;
-    float: left;
+.headerp2 .logop2 .logo2 {
+  width: 250px;
+  padding: 30px 28px;
+  overflow: hidden;
+  float: left;
 }
 
-.headerp2 .logop2 .logo2 a img:hover{
-    transform: scale(1.1);
-    animation: ease;
+.headerp2 .logop2 .logo2 a img:hover {
+  transform: scale(1.1);
+  animation: ease;
 }
 
 /* redes 2 */
-.headerp2 .redesp2{
-    width: 850px; height: 110px;
-    float: right;
-    overflow: hidden;
-    margin-top: -110px;
+.headerp2 .redesp2 {
+  width: 850px;
+  height: 110px;
+  float: right;
+  overflow: hidden;
+  margin-top: -110px;
 }
 
-.headerp2 .redesp2 .redes2{
-    width: 850px;
-    overflow: hidden;
-    padding: 45px 90px;
+.headerp2 .redesp2 .redes2 {
+  width: 850px;
+  overflow: hidden;
+  padding: 45px 90px;
 }
 
-.headerp2 .redesp2 .redes2 ul{
-    list-style: none;
-    margin-left: 510px;
+.headerp2 .redesp2 .redes2 ul {
+  list-style: none;
+  margin-left: 510px;
 }
 
-.headerp2 .redesp2 .redes2 ul li{
-    display: inline-block;
-    padding: 0 3px;
+.headerp2 .redesp2 .redes2 ul li {
+  display: inline-block;
+  padding: 0 3px;
 }
 
-.headerp2 .redesp2 .redes2 ul li a{
-    text-decoration: none;
-    color: white;
-    margin-left: 18px;
-    font-size: 22px;
+.headerp2 .redesp2 .redes2 ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 18px;
+  font-size: 22px;
 }
 
-.headerp2 .redesp2 .redes2 ul li a:hover{
-    color: teal;
-    transition: all .5s ease;
+.headerp2 .redesp2 .redes2 ul li a:hover {
+  color: teal;
+  transition: all 0.5s ease;
 }
 
 /* Sobre mi */
-.headerp2 .sobremi{
-    width: 490px; height: 95px;
-    margin-left: 440px;
-    margin-top: 10px;
+.headerp2 .sobremi {
+  width: 490px;
+  height: 95px;
+  margin-left: 440px;
+  margin-top: 10px;
 }
 
-.headerp2 .sobremi .texto img{
-    width: 100%;
-    margin-top: -150px;
+.headerp2 .sobremi .texto img {
+  width: 100%;
+  margin-top: -150px;
 }
 
 /* imagen y texto - informacion */
-.info .foto{
-    width: 300px; height: 300px;
+.info .foto {
+  width: 300px;
+  height: 300px;
 }
-.info .foto img{
-    width: 300px;
-    border-radius: 200px;
-    width: 60%;
-    margin-left: 100px;
-    margin-top: 70px;
-}
-
-.info .textoif{
-   text-align: left; 
-   margin-left: 65px;
+.info .foto img {
+  width: 300px;
+  border-radius: 200px;
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 70px;
 }
 
-.info .textoif p{
-    color: white;
-    font-size: 18px;
-    line-height: 30px;
+.info .textoif {
+  text-align: left;
+  margin-left: 65px;
 }
 
-.info .textoif p i{
-    padding: 0 15px;
+.info .textoif p {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.info .textoif p i {
+  padding: 0 15px;
 }
 
 /* Texto principal */
-.textoprincipal{
-    color: white;
-    margin-top: -350px;
-    margin-left: 480px;
+.textoprincipal {
+  color: white;
+  margin-top: -350px;
+  margin-left: 480px;
 }
 
 /* Pasatiempos y habilidades */
-.iconos{
-    width: 880px;
-    height: 180px;
-    margin-left: 465px;
-    margin-top: 35px;
+.iconos {
+  width: 880px;
+  height: 180px;
+  margin-left: 465px;
+  margin-top: 35px;
 }
 
-.iconos img{
-    display: inline-block;
-    width: 28%;
-    padding: 5px;
+.iconos img {
+  display: inline-block;
+  width: 28%;
+  padding: 5px;
 }
-
 
 /* PAGINA 3 - PORTAFOLIO */
 /* Fondo */
-.pag3{
-    background: url("../img/background3.jpg");
-    background-size: cover;
-    height: 100vh; width: 100%;
-    overflow: hidden;
+.pag3 {
+  background: url("../img/background3.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
-  
+
 /* Contenedor principal */
-.headerp3{
-    width: 1366px; height: 110px;
-    background-color: transparent;
-    z-index: 2;
+.headerp3 {
+  width: 1366px;
+  height: 110px;
+  background-color: transparent;
+  z-index: 2;
 }
-  
+
 /* logotipo */
-.headerp3 .logop3{
-    width: 200px; height: 110px;
-    float: left;
+.headerp3 .logop3 {
+  width: 200px;
+  height: 110px;
+  float: left;
 }
 
-.headerp3 .logop3 .logo3{
-    width: 250px;
-    padding: 30px 28px;
-    overflow: hidden;
-    float: left;
+.headerp3 .logop3 .logo3 {
+  width: 250px;
+  padding: 30px 28px;
+  overflow: hidden;
+  float: left;
 }
 
-.headerp3 .logop3 .logo3 a img:hover{
-    transform: scale(1.1);
-    animation: ease;
+.headerp3 .logop3 .logo3 a img:hover {
+  transform: scale(1.1);
+  animation: ease;
 }
 
 /* redes 3 */
-.headerp3 .redesp3{
-    width: 250px; height: 110px;
-    float: right;
-    overflow: hidden;
+.headerp3 .redesp3 {
+  width: 250px;
+  height: 110px;
+  float: right;
+  overflow: hidden;
 }
 
-.headerp3 .redesp3 .redes3{
-    overflow: hidden;
-    padding: 45px 0;
+.headerp3 .redesp3 .redes3 {
+  overflow: hidden;
+  padding: 45px 0;
 }
 
-.headerp3 .redesp3 .redes3 ul{
-    list-style: none;
+.headerp3 .redesp3 .redes3 ul {
+  list-style: none;
 }
 
-.headerp3 .redesp3 .redes3 ul li{
-    display: inline-block;
-    padding: 0 3px;
+.headerp3 .redesp3 .redes3 ul li {
+  display: inline-block;
+  padding: 0 3px;
 }
 
-.headerp3 .redesp3 .redes3 ul li a{
-    text-decoration: none;
-    color: white;
-    margin-left: 18px;
-    font-size: 22px;
+.headerp3 .redesp3 .redes3 ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 18px;
+  font-size: 22px;
 }
 
-.headerp3 .redesp3 .redes3 ul li a:hover{
-    color: teal;
-    transition: all .5s ease;
+.headerp3 .redesp3 .redes3 ul li a:hover {
+  color: teal;
+  transition: all 0.5s ease;
 }
 
 /* Portafolio */
-.headerp3 .portafolio{
-    width: 490px; height: 95px;
-    margin-left: 440px;
-    margin-top: 5px;
+.headerp3 .portafolio {
+  width: 490px;
+  height: 95px;
+  margin-left: 440px;
+  margin-top: 5px;
 }
 
-.headerp3 .portafolio .texto3 img{
-    width: 100%;
-    margin-top: 25px;
+.headerp3 .portafolio .texto3 img {
+  width: 100%;
+  margin-top: 25px;
 }
 
 /* Imagenes */
-.contenedor-imagenes{
-    display:flex;
-    width: 85%;
-    margin: auto;
-    flex-wrap: wrap;
-    border-radius:3px;
-    margin-left: 155px;
-    margin-top: 10px;
+.contenedor-imagenes {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  margin-left: 155px;
+  margin-top: 10px;
 }
 
-.contenedor-imagenes .imagen{
-    width: 240px;
-    position: relative;
-    height:220px;
-    margin-bottom:15px;
-    margin-left: 15px;
+.contenedor-imagenes .imagen {
+  width: 240px;
+  position: relative;
+  height: 220px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
-.imagen img{
-    width: 100%;
-    height:100%;
-    object-fit: cover;
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.overlay{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,128,128,0.9);
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition: .5s ease;
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 128, 128, 0.9);
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease;
 }
 
-.overlay h3{
-    color: #fff;
-    font-weight: normal;
-    font-size:15px;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+.overlay h3 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
-.overlay h3 a{
-    text-decoration: none;
-    color: rgb(223, 185, 19);
-    font-weight: bold;
+.overlay h3 a {
+  text-decoration: none;
+  color: rgb(223, 185, 19);
+  font-weight: bold;
 }
 
-.imagen:hover .overlay{
-    height:100%;
-    cursor: pointer;
+.imagen:hover .overlay {
+  height: 100%;
+  cursor: pointer;
 }
-
 
 /* PAGINA 4 - SERVICIOS */
 /* Fondo */
-.pag4{
-    background: url("../img/background2.jpg");
-    background-size: cover;
-    height: 100vh; width: 100%;
-    overflow: hidden;
+.pag4 {
+  background: url("../img/background2.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
-  
+
 /* Contenedor principal */
-.header4{
-    width: 1366px; height: 110px;
-    background-color: transparent;
-    z-index: 2;
+.header4 {
+  width: 1366px;
+  height: 110px;
+  background-color: transparent;
+  z-index: 2;
 }
-  
+
 /* logotipo */
-.header4 .logop4{
-    width: 200px; height: 110px;
-    float: left;
+.header4 .logop4 {
+  width: 200px;
+  height: 110px;
+  float: left;
 }
 
-.header4 .logop4 .logo4{
-    width: 250px;
-    padding: 30px 28px;
-    overflow: hidden;
-    float: left;
+.header4 .logop4 .logo4 {
+  width: 250px;
+  padding: 30px 28px;
+  overflow: hidden;
+  float: left;
 }
 
-.header4 .logop4 .logo4 a img:hover{
-    transform: scale(1.1);
-    animation: ease;
+.header4 .logop4 .logo4 a img:hover {
+  transform: scale(1.1);
+  animation: ease;
 }
 
 /* redes 4 */
-.header4 .redesp4{
-    width: 250px; height: 110px;
-    float: right;
-    overflow: hidden;
+.header4 .redesp4 {
+  width: 250px;
+  height: 110px;
+  float: right;
+  overflow: hidden;
 }
 
-.header4 .redesp4 .redes4{
-    overflow: hidden;
-    padding: 45px 0;
+.header4 .redesp4 .redes4 {
+  overflow: hidden;
+  padding: 45px 0;
 }
 
-.header4 .redesp4 .redes4 ul{
-    list-style: none;
+.header4 .redesp4 .redes4 ul {
+  list-style: none;
 }
 
-.header4 .redesp4 .redes4 ul li{
-    display: inline-block;
-    padding: 0 3px;
+.header4 .redesp4 .redes4 ul li {
+  display: inline-block;
+  padding: 0 3px;
 }
 
-.header4 .redesp4 .redes4 ul li a{
-    text-decoration: none;
-    color: white;
-    margin-left: 18px;
-    font-size: 22px;
+.header4 .redesp4 .redes4 ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 18px;
+  font-size: 22px;
 }
 
-.header4 .redesp4 .redes4 ul li a:hover{
-    color: teal;
-    transition: all .5s ease;
+.header4 .redesp4 .redes4 ul li a:hover {
+  color: teal;
+  transition: all 0.5s ease;
 }
 
 /* Servicios */
-.header4 .servicios{
-    width: 490px; height: 95px;
-    margin-left: 440px;
-    margin-top: 5px;
+.header4 .servicios {
+  width: 490px;
+  height: 95px;
+  margin-left: 440px;
+  margin-top: 5px;
 }
 
-.header4 .servicios .texto4 img{
-    width: 100%;
-    margin-top: 25px;
+.header4 .servicios .texto4 img {
+  width: 100%;
+  margin-top: 25px;
 }
 
 /* iconos */
 .iconos4 {
-    width: 1260px; height: 238px;
-    display: flex; padding: 0 30px 40px;
-    margin-top: 20px;
+  width: 1260px;
+  height: 238px;
+  display: flex;
+  padding: 0 30px 40px;
+  margin-top: 20px;
 }
 
-.iconos4 .img1{
-    width: 300px;
-    margin-left: 80px;
-    margin-top: 25px;
+.iconos4 .img1 {
+  width: 300px;
+  margin-left: 80px;
+  margin-top: 25px;
 }
 
-.iconos4 .img2{
-    width: 16%;
-    margin-left: 165px;
-    margin-top: 20px;
+.iconos4 .img2 {
+  width: 16%;
+  margin-left: 165px;
+  margin-top: 20px;
 }
 
-.iconos4 .img3{
-    width: 19%;
-    margin-left: 205px;
-    margin-top: 23px;
+.iconos4 .img3 {
+  width: 19%;
+  margin-left: 205px;
+  margin-top: 23px;
 }
 
 /* texto general */
-.textos4{
-    color: white;
-    width: 427px; height: 217px;
+.textos4 {
+  color: white;
+  width: 427px;
+  height: 217px;
 }
 
-.textos4 .txt1{
-    font-size: 15px;
-    width: 370px; height: 210px;
-    margin-left: 70px; margin-top: 45px;
+.textos4 .txt1 {
+  font-size: 15px;
+  width: 370px;
+  height: 210px;
+  margin-left: 70px;
+  margin-top: 45px;
 }
 
-.textos4 .txt1 p{
-    text-align: justify;
+.textos4 .txt1 p {
+  text-align: justify;
 }
 
-.textos4 .txt2{
-    font-size: 15px;
-    width: 370px; height: 210px;
-    margin-left: 490px; margin-top: -210px;
+.textos4 .txt2 {
+  font-size: 15px;
+  width: 370px;
+  height: 210px;
+  margin-left: 490px;
+  margin-top: -210px;
 }
 
-.textos4 .txt2 p{
-    text-align: justify;
+.textos4 .txt2 p {
+  text-align: justify;
 }
 
-.textos4 .txt3{
-    font-size: 15px;
-    width: 370px; height: 210px;
-    margin-left: 910px; margin-top: -210px;
+.textos4 .txt3 {
+  font-size: 15px;
+  width: 370px;
+  height: 210px;
+  margin-left: 910px;
+  margin-top: -210px;
 }
 
-.textos4 .txt3 p{
-    text-align: justify;
+.textos4 .txt3 p {
+  text-align: justify;
 }
-
 
 /* PAGINA 5 - CONTACTO */
 /* Fondo */
-.pag5{
-    background: url("../img/background3.jpg");
-    background-size: cover;
-    height: 100vh; width: 100%;
-    overflow: hidden;
+.pag5 {
+  background: url("../img/background3.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
-  
+
 /* Contenedor principal */
-.header5{
-    width: 1366px; height: 110px;
-    background-color: transparent;
-    z-index: 2;
+.header5 {
+  width: 1366px;
+  height: 110px;
+  background-color: transparent;
+  z-index: 2;
 }
-  
+
 /* logotipo */
-.header5 .logop5{
-    width: 350px; height: 110px;
-    float: left;
+.header5 .logop5 {
+  width: 350px;
+  height: 110px;
+  float: left;
 }
 
-.header5 .logop5 .logo5{
-    width: 250px;
-    padding: 30px 28px;
-    overflow: hidden;
-    float: left;
+.header5 .logop5 .logo5 {
+  width: 250px;
+  padding: 30px 28px;
+  overflow: hidden;
+  float: left;
 }
 
-.header5 .logop5 .logo5 a img:hover{
-    transform: scale(1.1);
-    animation: ease;
+.header5 .logop5 .logo5 a img:hover {
+  transform: scale(1.1);
+  animation: ease;
 }
 
 /* redes 5 */
-.header5 .redesp5{
-    width: 250px; height: 110px;
-    float: right;
-    overflow: hidden;
+.header5 .redesp5 {
+  width: 250px;
+  height: 110px;
+  float: right;
+  overflow: hidden;
 }
 
-.header5 .redesp5 .redes5{
-    overflow: hidden;
-    padding: 45px 0px;
+.header5 .redesp5 .redes5 {
+  overflow: hidden;
+  padding: 45px 0px;
 }
 
-.header5 .redesp5 .redes5 ul{
-    list-style: none;
+.header5 .redesp5 .redes5 ul {
+  list-style: none;
 }
 
-.header5 .redesp5 .redes5 ul li{
-    display: inline-block;
-    padding: 0 3px;
+.header5 .redesp5 .redes5 ul li {
+  display: inline-block;
+  padding: 0 3px;
 }
 
-.header5 .redesp5 .redes5 ul li a{
-    text-decoration: none;
-    color: white;
-    margin-left: 18px;
-    font-size: 22px;
+.header5 .redesp5 .redes5 ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 18px;
+  font-size: 22px;
 }
 
-.header5 .redesp5 .redes5 ul li a:hover{
-    color: teal;
-    transition: all .5s ease;
+.header5 .redesp5 .redes5 ul li a:hover {
+  color: teal;
+  transition: all 0.5s ease;
 }
 
 /* CONTACTO */
-.header5 .contacto{
-    width: 490px; height: 95px;
-    margin-left: 440px;
-    margin-top: 10px;
+.header5 .contacto {
+  width: 490px;
+  height: 95px;
+  margin-left: 440px;
+  margin-top: 10px;
 }
 
-.header5 .contacto .texto5 img{
-    width: 100%;
-    margin-top: 15px;
+.header5 .contacto .texto5 img {
+  width: 100%;
+  margin-top: 15px;
 }
 
 /* Fondo formulario */
-.fondocontacto{
-    width: 1036px; height: 508px;
+.fondocontacto {
+  width: 1036px;
+  height: 508px;
 }
-.fondocontacto img{
-    width: 90%;
-    margin-left: 155px;
-    margin-top: 15px;
-    z-index: 1;
+.fondocontacto img {
+  width: 90%;
+  margin-left: 155px;
+  margin-top: 15px;
+  z-index: 1;
 }
 
 /* formulario */
-#formulario{
-    display: inline-block;
-    width: 29%;
-    margin: 10px 10px;
-    vertical-align: middle;
-    margin-top: -545px;
-    margin-left: 172px;
+#formulario {
+  display: inline-block;
+  width: 29%;
+  margin: 10px 10px;
+  vertical-align: middle;
+  margin-top: -545px;
+  margin-left: 172px;
 }
 
-form input, select, textarea{
-    width: 80%;
-    padding: 13px;
-    margin: 7px auto;
-    font-size: 0.7em;
-    color: white;
-    background: rgba(0,128,128,.6);
-    border-radius: 12px;
+form input,
+select,
+textarea {
+  width: 80%;
+  padding: 13px;
+  margin: 7px auto;
+  font-size: 0.7em;
+  color: white;
+  background: rgba(0, 128, 128, 0.6);
+  border-radius: 12px;
 }
 
-select{
-    width: 90%;
+select {
+  width: 90%;
 }
 
-.btnForm{
-    width: 100px;
-    color: #848483;
-    float: left;
-    margin: 3px;
+.btnForm {
+  width: 100px;
+  color: #848483;
+  float: left;
+  margin: 3px;
 }
 
 /* footer5 */
-.footer5{
-    color: white;
-    margin-top: -35px;
-    margin-left: 15px;
+.footer5 {
+  color: white;
+  margin-top: -35px;
+  margin-left: 15px;
 }
-

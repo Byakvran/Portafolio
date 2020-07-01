@@ -1,6 +1,503 @@
 /*//////////////////////////////*/
 /*//////////////////////////////*/
 /* RESPONSIVE */
+@media screen and (max-width: 1920px) {
+  .pag1 {
+    background: url("../img/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Contenedor principal */
+  .header {
+    width: 1366px;
+    height: 110px;
+    background-color: transparent;
+    z-index: 2;
+  }
+
+  /* logotipo */
+  .header .contenedor1 {
+    width: 763px;
+    height: 110px;
+    float: left;
+  }
+
+  .header .contenedor1 .logo {
+    width: 300px;
+    margin-top: 20px;
+    overflow: hidden;
+    float: left;
+  }
+  /* Menu izquierdo */
+  .header .contenedor1 .redes {
+    width: 350px;
+    overflow: hidden;
+  }
+
+  .contenedor1 .redes ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 42px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+
+  .contenedor1 .redes ul li a:hover {
+    color: teal;
+    transition: all 0.5s ease;
+  }
+
+  /* Menú derecho */
+  .header .contenedor2 {
+    width: 1400px;
+    height: 110px;
+    float: left;
+    overflow: hidden;
+    margin-top: -110px;
+    margin-left: 800px;
+  }
+
+  .header .contenedor2 .menu {
+    width: 1400px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  .header .contenedor2 .menu ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 30px;
+  }
+
+  .header .contenedor2 .menu ul li a:hover {
+    color: teal;
+    transition: all 0.5s ease;
+  }
+
+  .pagina .textobody img {
+    padding: 275px 370px;
+    width: 320%;
+  }
+  /*/////////////////////////////////*/
+  /* PAGINA 2 - SOBRE MI */
+  .pag2 {
+    background: url("../img/background2.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .headerp2 .logop2 .logo2 {
+    width: 350px;
+    padding: 35px;
+    overflow: hidden;
+    float: left;
+  }
+
+  .headerp2 .logop2 .logo2 a img:hover {
+    transform: scale(1.1);
+    animation: ease;
+  }
+
+  .headerp2 .redesp2 {
+    width: 1500px;
+    height: 110px;
+    float: left;
+    overflow: hidden;
+    margin-top: -110px;
+    margin-left: 400px;
+  }
+
+  .headerp2 .redesp2 .redes2 {
+    width: 1500px;
+    overflow: hidden;
+    margin-left: 650px;
+  }
+
+  .headerp2 .redesp2 .redes2 ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 40px;
+  }
+
+  .headerp2 .redesp2 .redes2 ul li a:hover {
+    color: teal;
+    transition: all 0.5s ease;
+  }
+
+  .headerp2 .sobremi .texto img {
+    width: 120%;
+    margin-top: -100px;
+    margin-left: 210px;
+  }
+
+  .info .foto img {
+    border-radius: 200px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 140px;
+  }
+
+  .info .textoif {
+    text-align: left;
+    margin-left: 85px;
+    margin-top: 200px;
+  }
+
+  .info .textoif p {
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  .textoprincipal {
+    color: white;
+    margin-top: -550px;
+    margin-left: 550px;
+    font-size: 27px;
+  }
+
+  /* Pasatiempos y habilidades */
+  .iconos {
+    width: 1490px;
+    height: 180px;
+    margin-left: 530px;
+    margin-top: 90px;
+  }
+  /*/////////////////////////////////*/
+  /* PAGINA 3 - PORTAFOLIO */
+  .pag3 {
+    background: url("../img/background3.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .headerp3 .logop3 .logo3 {
+    width: 350px;
+    padding: 35px;
+    overflow: hidden;
+    float: left;
+  }
+
+  .headerp3 .logop3 .logo3 a img:hover {
+    transform: scale(1.1);
+    animation: ease;
+  }
+
+  .headerp3 .redesp3 {
+    width: 1500px;
+    height: 110px;
+    float: left;
+    overflow: hidden;
+    margin-top: -110px;
+    margin-left: 400px;
+  }
+
+  .headerp3 .redesp3 .redes3 {
+    width: 1500px;
+    overflow: hidden;
+    margin-left: 1250px;
+  }
+
+  .headerp3 .redesp3 .redes3 ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 40px;
+  }
+
+  .headerp3 .redesp3 .redes3 ul li a:hover {
+    color: teal;
+    transition: all 0.5s ease;
+  }
+
+  .headerp3 .portafolio .texto3 img {
+    width: 150%;
+    margin-top: 50px;
+    margin-left: 210px;
+  }
+
+  /* Imagenes */
+  .contenedor-imagenes {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    margin-left: 220px;
+    margin-top: 180px;
+  }
+
+  .contenedor-imagenes .imagen {
+    width: 340px;
+    position: relative;
+    height: 320px;
+    margin-bottom: 15px;
+    margin-left: 19px;
+  }
+
+  .imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 128, 128, 0.9);
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+
+  .overlay h3 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .overlay h3 a {
+    text-decoration: none;
+    color: rgb(223, 185, 19);
+    font-weight: bold;
+  }
+
+  .imagen:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+  }
+  /*///////////////////////*/
+  /* PAGINA 4 - SERVICIOS */
+  .pag4 {
+    background: url("../img/background2.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .header4 .logop4 .logo4 {
+    width: 350px;
+    padding: 35px;
+    overflow: hidden;
+    float: left;
+  }
+
+  .header4 .logo4 .logo4 a img:hover {
+    transform: scale(1.1);
+    animation: ease;
+  }
+
+  .header4 .redesp4 {
+    width: 1500px;
+    height: 110px;
+    float: left;
+    overflow: hidden;
+    margin-top: -110px;
+    margin-left: 400px;
+  }
+
+  .header4 .redesp4 .redes4 {
+    width: 1500px;
+    overflow: hidden;
+    margin-left: 1250px;
+  }
+
+  .header4 .redesp4 .redes4 ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 40px;
+  }
+
+  .header4 .redes4 .redes4 ul li a:hover {
+    color: teal;
+    transition: all 0.5s ease;
+  }
+
+  .header4 .servicios .texto4 img {
+    width: 120%;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+
+  .iconos4 {
+    width: 1800px;
+    height: 238px;
+    display: flex;
+    padding: 0 30px;
+    margin-top: 20px;
+  }
+
+  .iconos4 .img1 {
+    width: 300px;
+    margin-left: 230px;
+    margin-top: 200px;
+  }
+
+  .iconos4 .img2 {
+    width: 190px;
+    margin-left: 290px;
+    margin-top: 195px;
+  }
+
+  .iconos4 .img3 {
+    width: 230px;
+    margin-left: 290px;
+    margin-top: 195px;
+  }
+  .textos4 .txt1 {
+    font-size: 15px;
+    width: 370px;
+    height: 210px;
+    margin-left: 200px;
+    margin-top: 270px;
+  }
+  .textos4 .txt1 p {
+    text-align: justify;
+    font-size: 20px;
+    width: 115%;
+  }
+  .textos4 .txt2 {
+    font-size: 15px;
+    width: 370px;
+    height: 210px;
+    margin-left: 745px;
+    margin-top: -210px;
+  }
+  .textos4 .txt2 p {
+    text-align: justify;
+    font-size: 20px;
+    width: 115%;
+  }
+  .textos4 .txt3 {
+    font-size: 15px;
+    width: 370px;
+    height: 210px;
+    margin-left: 1285px;
+    margin-top: -210px;
+  }
+  .textos4 .txt3 p {
+    text-align: justify;
+    font-size: 20px;
+    width: 115%;
+  }
+  /*////////////////////////*/
+  /* PAGINA 5 - CONTACTO */
+  .pag5 {
+    background: url("../img/background3.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .header5 .logop5 .logo5 {
+    width: 350px;
+    padding: 35px;
+    overflow: hidden;
+    float: left;
+  }
+
+  .header5 .logop5 .logo5 a img:hover {
+    transform: scale(1.1);
+    animation: ease;
+  }
+
+  .header5 .redesp5 {
+    width: 1500px;
+    height: 110px;
+    float: left;
+    overflow: hidden;
+    margin-top: -110px;
+    margin-left: 400px;
+  }
+
+  .header5 .redesp5 .redes5 {
+    width: 1500px;
+    overflow: hidden;
+    margin-left: 1250px;
+  }
+
+  .header5 .redesp5 .redes5 ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-size: 40px;
+  }
+
+  .header5 .redesp5 .redes5 ul li a:hover {
+    color: teal;
+    transition: all 0.5s ease;
+  }
+
+  .header5 .contacto .texto5 img {
+    width: 120%;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+
+  .fondocontacto img {
+    width: 140%;
+    margin-left: 245px;
+    margin-top: 115px;
+    z-index: 1;
+  }
+
+  /* formulario */
+  #formulario {
+    display: inline-block;
+    width: 29%;
+    margin-top: -345px;
+    margin-left: 292px;
+  }
+
+  form input,
+  select,
+  textarea {
+    width: 85%;
+    padding: 30px;
+    margin: 10px auto;
+    font-size: 0.7em;
+    color: white;
+    background: rgba(0, 128, 128, 0.6);
+    border-radius: 12px;
+  }
+
+  .btnForm {
+    width: 200px;
+    color: #848483;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  /* footer5 */
+  .footer5 {
+    color: white;
+    font-size: 20px;
+    margin-top: 150px;
+  }
+}
+
+/*//////////////////////////////*/
+/*//////////////////////////////*/
+/* RESPONSIVE */
 @media screen and (max-width: 768px) {
   .pag1 {
     background: url("../img/background.jpg");

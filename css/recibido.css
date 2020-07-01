@@ -1,45 +1,100 @@
-*{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-    background: url("../img/background4.jpg");
-    background-size: cover;
-    height: 100vh; width: 100%;
-    overflow: hidden;
-    font-family: 'Montserrat', sans-serif;
+body {
+  background: url("../img/background4.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
-.mensaje{
-    width: 1023px; height: 472px;
+.mensaje {
+  width: 1023px;
+  height: 472px;
 }
 
-.mensaje img{
-    padding: 90px 170px;
+.mensaje img {
+  padding: 90px 170px;
 }
 
-.botonderegreso{
-    width: 100px;
-    margin-top: 95px;
+.botonderegreso {
+  width: 100px;
+  margin-top: 95px;
 }
-.botonderegreso a{
-    color: white;
-    text-decoration: none;
-    background: rgba(0,128,128,.5);
-    padding: 15px 35px;
-    border-radius: 30px;
-    margin-left: 620px;
+.botonderegreso a {
+  color: white;
+  text-decoration: none;
+  background: rgba(0, 128, 128, 0.5);
+  padding: 15px 35px;
+  border-radius: 30px;
+  margin-left: 620px;
 }
 
 /* Foooter */
-.footer6 .copyright6 p{
+.footer6 .copyright6 p {
+  width: 1366px;
+  z-index: 3;
+  margin-left: 15px;
+  color: white;
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .mensaje {
+    width: 80%;
+  }
+
+  .mensaje img {
+    padding: 420px 85px;
+  }
+
+  .botonderegreso {
+    width: 100px;
+    margin-top: 285px;
+    margin-left: -300px;
+  }
+
+  .footer6 .copyright6 p {
     width: 1366px;
     z-index: 3;
     margin-left: 15px;
     color: white;
-    margin-top: 26px;
+    margin-top: 216px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mensaje img {
+    padding: 250px 40px;
+  }
+
+  .botonderegreso {
+    width: 100px;
+    margin-top: 25px;
+  }
+
+  .botonderegreso a {
+    color: white;
+    text-decoration: none;
+    background: rgba(0, 128, 128, 0.5);
+    padding: 15px 35px;
+    border-radius: 30px;
+    margin-left: 420px;
+  }
+
+  .footer6 .copyright6 p {
+    width: 1366px;
+    z-index: 3;
+    margin-left: 15px;
+    color: white;
+    margin-top: 126px;
+    font-size: 12px;
+  }
 }
